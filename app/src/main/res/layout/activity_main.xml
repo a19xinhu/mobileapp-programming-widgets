@@ -7,6 +7,9 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <!-- Start typing the names of the widgets below this comment -->
-
+    <Button
+        android:id="@+id/myNewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tomten" />
 </LinearLayout>
