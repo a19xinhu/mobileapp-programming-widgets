@@ -7,14 +7,25 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/myNewBtn"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop ="200dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tomten" />
+        android:text="Hello" />
 
     <ListView
         android:id="@+id/list_view"
-        android:layout_width="255dp"
-        android:layout_height="195dp" />
+        android:layout_width="260dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/myNewBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tomten" />
 </LinearLayout>
